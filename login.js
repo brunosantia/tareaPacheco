@@ -24,7 +24,7 @@ export default function Login(){
                 <text styles={styles.label}>email address</text>
                 <TextInput
                 style={style.TextInput}
-                underlinecolorAndroid="pink"
+                underlinecolorAndroid="pink "
                 placeholder="ejemplo@ejemplo.com"
                 keyyboardType="email-address"
                 returnKeyType="next"
