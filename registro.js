@@ -65,6 +65,14 @@ formContainer.appendChild(apellidoInput);
 formContainer.appendChild(contrasenaInput);
 formContainer.appendChild(correoInput);
 
+<View style={styles.imageRoll}>
+<TouchableOpacity style={styles.buttonRoll} onPress={pickImage}>
+  <Text style={styles.textRoll}>Selecciona una imagen de perfil</Text>
+  {image && <Image source={{ uri: image }} style={{ width: 170, height: 130,}} />}
+</TouchableOpacity>
+{/* <Button title="Selecciona una imagen de perfil" onPress={pickImage} />
+*/}
+</View>
 
 const boton = document.createElement("button");
 boton.textContent = "Enviar";
